@@ -18,9 +18,14 @@ checkpoints/
 runs/
 wandb/
 
-# Saved splits / generated artifacts (regenerate from seed)
+# Processed data + generated artifacts (large / regenerable from pipeline.py)
+processed/
+artifacts/
 splits/
 *.npy
+
+# Internal scope/working doc — not for the public repo
+CLAUDE.md
 
 # OS / editor
 .DS_Store

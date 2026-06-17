@@ -22,6 +22,9 @@ wandb/
 splits/
 *.npy
 
+# Internal scope/working doc — not for the public repo
+CLAUDE.md
+
 # OS / editor
 .DS_Store
 .idea/
